@@ -1,5 +1,5 @@
-import './CoreConcepts.css'
-export function CoreConcepts({ title, description, image }) {
+import './CoreConcept.css'
+export function CoreConcept({ title, description, image }) {
   return (
     <li>
       <img src={image} alt={title} />
